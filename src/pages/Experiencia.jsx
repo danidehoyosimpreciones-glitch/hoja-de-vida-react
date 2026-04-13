@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Layout from '../components/Layout'
 
-const API = 'http://localhost:3000/api/experiencias'
+const API = 'https://hoja-de-vida-api.onrender.com/api/experiencias'
 
 function formatFecha(f) {
   if (!f) return 'Actualidad'

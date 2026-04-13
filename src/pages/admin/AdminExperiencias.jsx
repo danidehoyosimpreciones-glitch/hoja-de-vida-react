@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:3000/api/experiencias'
+const API = 'https://hoja-de-vida-api.onrender.com/api/experiencias'
 
 const FORM_VACIO = { cargo: '', empresa: '', fechaInicio: '', fechaFin: '', ciudad: '', descripcion: '' }
 

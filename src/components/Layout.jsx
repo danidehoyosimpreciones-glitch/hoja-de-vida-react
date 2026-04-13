@@ -24,6 +24,7 @@ export default function Layout({ children }) {
           <li><Link to="/documentos">Documentos</Link></li>
           <li><Link to="/soportes">Soportes</Link></li>
           <li><Link to="/contacto">Contacto</Link></li>
+          <li><Link to="/admin" style={{color:'var(--ambar)'}}>⚙ Admin</Link></li>
         </ul>
       </nav>
 
